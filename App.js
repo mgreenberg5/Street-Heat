@@ -18,8 +18,6 @@ export default class App extends React.Component {
   }
 
   async _loadAssetsAsync() {
-    console.log("broo")
-    debugger
     try {
       await cacheAssetsAsync({
         images: [
